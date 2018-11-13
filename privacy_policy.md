@@ -26,7 +26,7 @@ If you have any questions or suggestions about Privacy Policy of this app, do no
 プライバシーポリシーに関するご質問やご意見がございましたら、お気軽に[私](mailto：new.three.rs@gmail.com)までご連絡ください。
 
 ---
-Note: The below are machine-translated versions of Privacy Policy.
+Note: The below are machine-translated versions of Privacy Policy. Please be patient with poor statements.
 
 ## 隐私政策
 
