@@ -10,7 +10,7 @@ TARGET_FP16 = ${EXPANDED}_fp16.mlmodel
 all: ${TARGET_FP16}
 
 ${DOWNLOADED}:
-	curl -O ${URL}
+	curl -OL ${URL}
 
 ${EXPANDED}: ${DOWNLOADED}
 	gunzip ${DOWNLOADED}
