@@ -1,8 +1,8 @@
 #!/bin/bash
 
-if [ "$#" -ne 1 ]; then
-    echo "Usage: make.sh <URL>"
+if [ "$#" -ne 2 ]; then
+    echo "Usage: make.sh <SIZE> <URL>"
     exit 1
 fi
 pipenv install
-pipenv shell URL=$1 make
+pipenv shell SIZE=$1 URL=$2 make

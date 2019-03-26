@@ -12,7 +12,8 @@ VALUE_FULL = 256
 
 if __name__ == "__main__":
     data_format = 'NHWC' # for tfcoreml
-    version, blocks, filters, weights = read_net(sys.argv[1])
+    BOARD_SIZE = int(sys.argv[1])
+    version, blocks, filters, weights = read_net(sys.argv[2])
 
     if data_format == 'NHWC':
         planes = tf.placeholder(tf.float32, [None, BOARD_SIZE, BOARD_SIZE, FEATURES], name='x')
