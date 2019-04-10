@@ -7,7 +7,6 @@ from net2net import read_net
 
 BOARD_SIZE = 19
 FEATURES = 18
-VALUE_FULL = 256
 
 
 if __name__ == "__main__":
@@ -32,6 +31,8 @@ if __name__ == "__main__":
     tfprocess.FEATURES = FEATURES
     tfprocess.RESIDUAL_FILTERS = filters
     tfprocess.RESIDUAL_BLOCKS = blocks
+    if BOARD_SIZE == 9:
+        tfprocess.VALUE_FULLY_CONNECTED = 64
     tfprocess.training = False # batch normalizationをコンバートするため
     tfprocess.init_net(planes, probs, winner)
     tfprocess.replace_weights(weights)
