@@ -30,11 +30,18 @@ So please put user-recognizable name in the head part and detail info such as "_
 ## Try to download the example
 Put "https://dl.dropboxusercontent.com/s/4ue9d86yaglengl/LeelaMaster_GX89_fp16.json" into the URL field in setting model on the app and press enter key.
 
-## Usage
+## Usage of the resources in this directory
 ### simple instruction to make .mlmodel file
 ```
 ./make.sh <board size> <URL of weight>
 ```
+An example for Leela Zero #221
+```
+./make.sh 19 https://zero.sjeng.org/networks/92f828bf13087837dfed4058df85afe634a028492e29418cbff41ab47023d42e.gz
+```
+
+Then please prepare JSON file according to the above information.
+You can download Leela Zero #221 as "https://dl.dropboxusercontent.com/s/i5zjw56v5i9vo21/LeelaZero_221_fp16.json"
 
 ## Detail
 <dl>
