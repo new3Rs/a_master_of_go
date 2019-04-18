@@ -7,7 +7,30 @@ gunzip
 pyenv
 pipenv
 
+## How to prepare downloadable weight file set
+You need to prepare two files on the Internet, one is a JSON file for information, the other is .mlmodel file.
+### JSON file
+Here is an example.
+```json:LeelaMaster_GX89_fp16.json
+{
+    "url": "https://dl.dropboxusercontent.com/s/66xjj1uuk3yv8b7/LeelaMaster_GX89_fp16.mlmodel",
+    "size": 19,
+    "komi": 7.5,
+    "version": 1
+}
+```
+The property "size" means board size, "komi" is target komi of the weight, "version" means Leela Zero weight format version, which is extended "3" for PhoenixGo (17 input planes).
+
+### .mlmodel file
+See Usage to make .mlmodel file.
+About file name, the app shows the head part of file name of .mlmodel, which is from head upto before the second underscore "_". The example model is shown as "LeelaMaster_GX89".
+So please put user-recognizable name in the head part and detail info such as "_fp16" or hash in the rest part.
+
+## Try to download the example
+Put "https://dl.dropboxusercontent.com/s/4ue9d86yaglengl/LeelaMaster_GX89_fp16.json" into the URL field in setting model on the app and press enter key.
+
 ## Usage
+### simple instruction to make .mlmodel file
 ```
 ./make.sh <board size> <URL of weight>
 ```
