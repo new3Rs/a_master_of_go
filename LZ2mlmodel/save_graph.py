@@ -10,6 +10,10 @@ FEATURES = 18
 
 
 if __name__ == "__main__":
+    if len(sys.argv) < 3:
+        print('Usage: python {} size path'.format(sys.argv[0])) 
+        sys.exit()
+
     data_format = 'NHWC' # for tfcoreml
     BOARD_SIZE = int(sys.argv[1])
     version, blocks, filters, weights = read_net(sys.argv[2])

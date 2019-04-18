@@ -4,6 +4,7 @@ import tfcoreml as tf_converter
 if __name__ == '__main__':
     if len(sys.argv) < 3:
         print('Usage: python {} size target_path'.format(sys.argv[0]))
+        sys.exit()
     size = int(sys.argv[1])
     tf_converter.convert(
         tf_model_path='tmp/frozen_model.pb',
