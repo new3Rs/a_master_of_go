@@ -9,8 +9,9 @@ pipenv
 
 ## How to prepare downloadable weight file set
 You need to prepare two files on the Internet, one is a JSON file for information, the other is .mlmodel file.
+The below is an example using GX89 in [Leela Master](https://github.com/pangafu/LeelaMasterWeight) by 章鱼围棋(Octopus Go) & 袁泉(pangafu@github).
+
 ### JSON file
-Here is an example.
 ```json:LeelaMaster_GX89_fp16.json
 {
     "url": "https://dl.dropboxusercontent.com/s/66xjj1uuk3yv8b7/LeelaMaster_GX89_fp16.mlmodel",
