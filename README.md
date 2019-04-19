@@ -8,3 +8,6 @@ an iOS App of a strong Go AI
 <dt>https://dl.dropboxusercontent.com/s/i5zjw56v5i9vo21/LeelaZero_221_fp16.json</dt>
 <dd>[Leela Zero](https://github.com/leela-zero/leela-zero) #221 weight. This is a 40b weight trained by self-plays.</dd>
 </dl>
+
+## How to make your own downloadable weights
+See https://github.com/new3Rs/a_master_of_go/blob/master/LZ2mlmodel/README.md.
