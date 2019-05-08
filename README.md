@@ -2,6 +2,8 @@
 an iOS App of a strong Go AI
 
 ## Downloadable extra weights
+Please copy one of URLs below and paste "DL weight from:" field in the setting modal on the app.
+
 <dl>
 <dt>https://github.com/new3Rs/a_master_of_go/releases/download/LeelaMaster_GX89/LeelaMaster_GX89_fp16.json</dt>
 <dd>[Leela Master](https://github.com/pangafu/LeelaMasterWeight) weight(GX89). This is a 15b weight trained using 80% human style games and 20% Leela Zero games. 章鱼围棋(Octopus Go) & 袁泉(pangafu@github) are making Leela Master.</dd>
