@@ -10,7 +10,7 @@ Please copy one of URLs below and paste "DL weight from:" field in the setting m
 <dt>https://github.com/new3Rs/a_master_of_go/releases/download/LeelaZero_226/LeelaZero_226_fp16.json</dt>
 <dd>[Leela Zero](https://github.com/leela-zero/leela-zero) #226 weight. This is a 40b weight trained by self-plays.</dd>
 <dt>https://github.com/new3Rs/a_master_of_go/releases/download/minigo_v17/minigo_v17_fp16.json</dt>
-<dd>[minigo](https://github.com/tensorflow/minigo) v17 weight(001003-leviathan). WARNING: This weight is very heavy even if you use A12 processor (less than 30 nps).</dd>
+<dd>[minigo](https://github.com/tensorflow/minigo) v17 weight(001003-leviathan). WARNING: Version 3.4.0 or later is required. This weight is very heavy even if you use A12 processor (less than 30 nps).</dd>
 </dl>
 
 ## How to make your own downloadable weights
