@@ -20,7 +20,7 @@ The below is an example using GX89 in [Leela Master](https://github.com/pangafu/
     "version": 1
 }
 ```
-The property "size" means board size, "komi" is target komi of the weight, "version" means Leela Zero weight format version, which is extended "3" for PhoenixGo (17 input planes).
+The property "size" means board size, "komi" is target komi of the weight, "version" means Leela Zero weight format version, which is extended "3" for PhoenixGo (17 input planes), "4" for minigo (17 input planes, value for black).
 
 ### .mlmodel file
 See Usage to make .mlmodel file.
