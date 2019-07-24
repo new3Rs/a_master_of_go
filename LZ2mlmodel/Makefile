@@ -1,6 +1,7 @@
 GRAPH = tmp/graph.pb
 CHECK_POINT = tmp/model.ckpt
 FROZEN_MODEL = tmp/frozen_model.pb
+OPTIMIZED_MODEL = tmp/optimized.pb
 #SIZE = should_be_given_as_environment_variable
 #URL = should_be_given_as_environment_variable
 DOWNLOADED = $(notdir ${URL})
@@ -25,8 +26,11 @@ ${CHECK_POINT}: ${EXPANDED} ${GRAPH}
 ${FROZEN_MODEL}: ${GRAPH} ${CHECK_POINT}.index
 	freeze_graph --input_graph=${GRAPH} --input_checkpoint=${CHECK_POINT} --output_graph=${FROZEN_MODEL} --output_node_names=fc1,fc3
 
-${TARGET}: ${FROZEN_MODEL}
-	python3 convert_coreml.py ${SIZE} ${TARGET}
+${OPTIMIZED_MODEL}: ${FROZEN_MODEL}
+	python3 optimize.py ${FROZEN_MODEL} ${OPTIMIZED_MODEL}
+
+${TARGET}: ${OPTIMIZED_MODEL}
+	python3 convert_coreml.py ${OPTIMIZED_MODEL} ${SIZE} ${TARGET}
 
 ${TARGET_FP16}: ${TARGET}
 	python3 convert_fp16.py ${TARGET} ${TARGET_FP16}
