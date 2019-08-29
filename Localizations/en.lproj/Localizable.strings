@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  ChildOfZero
+
+  Created by 市川雄二 on 2018/10/26.
+  Copyright © 2018 New 3 Rs. All rights reserved.
+*/
+
+"introduction" = "    \"A Master of Go\" is a Go AI with a strong neural network.
+You can play or study with \"A Master of Go\". Enjoy!";
+"references" = "Reference
+    ・The app icon is \"Zhong Kui\” by Tsukioka Yoshitoshi(1839-1892).
+    ・The AI algorithm is same as AlphaZero by DeepMind Technologies Limited.
+    ・Powered by a neural network derived from Leela Zero, neural networks of ELF OpenGo (Authors: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF) and PhoenixGo (Authors: Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo).
+    ・Information presentation in study mode is compatible with Lizzie(https://github.com/featurecat/lizzie).";
+
+"end greeting" = "Thank you for playing with me!";
+"start greeting" = "Let's play!";
+"resign" = "Your nice game!";
+"pass" = "I pass.";
+
+"alert" = "Message";
+"unsupported board size" = "The size(%@) is not supported.";
+"invalid SGF" = "It looks like an invalid SGF.\n%@";
+"illegal move in SGF" = "It looks like that there is an illegal move(%d).";
+"trouble" = "Sorry, AI seems to have trouble.";
+"crash" = "The AI ​​engine terminated abnormally. Please return to the main menu and try once. If repeated, please contact us from the support page. I am terribly sorry.";
+"illegal move" = "Here is an illegal move.";
+"not text" = "It doesn't look like a text file.\nUTF-8 is required as character code.";
+"confirm file" = "Open a file";
+"confirm message" = "Are you sure to abandon current game or study?";
+"cancel" = "Cancel";
+"go to main menu" = "Go to Main Menu";
+"are you sure" = "Are you sure?";
+"let's study" = "Let's study!";
+"komi is not supported" = "Komi is %.1f, but %.1f is adopted.";
+"komi is not specified" = "Komi is not specified, but %.1f is adopted.";
+"going to resign" = "You are going to resign";
+"how to save" = "(You can save this record via the share button in main menu)";
+"sorry" = "I am sorry";
+"crash during game" = "It seems that the app crashed during a game last time.
+You can retrieve the game SGF by the share button.
+Do you copy it into clipboard?";
+"buy" = "Buy";
+"buying" = "processing";
+"bought" = "The process finished. Thank you for purchasing!
+Now you have %d coins.";
+"failed to buy" = "I am sorry that the process could not finish.";
+"close" = "Close";
+"extend search" = "Extend search";
+"invalid product IDs" = "Invalid product IDs are detected.";
+"no product IDs" = "It seems that App Store is preparing items.\nPlease wait for a while then try again.";

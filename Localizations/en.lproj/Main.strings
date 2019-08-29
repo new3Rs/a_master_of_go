@@ -1,0 +1,206 @@
+
+/* Class = "UIButton"; normalTitle = "Paste SGF for Study"; ObjectID = "2OC-cc-Md1"; */
+"2OC-cc-Md1.normalTitle" = "Paste SGF for Study";
+
+/* Class = "UILabel"; text = "Komi:"; ObjectID = "4dJ-Dl-CbS"; */
+"4dJ-Dl-CbS.text" = "Komi:";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
+"5bL-9j-mBK.title" = "Settings";
+
+/* Class = "UIBarButtonItem"; title = "◀"; ObjectID = "65F-yc-e35"; */
+"65F-yc-e35.title" = "◀";
+
+/* Class = "UILabel"; text = "Battery saving:\n(idle while the user is thinking)"; ObjectID = "6lY-KH-mPQ"; */
+"6lY-KH-mPQ.text" = "Battery saving:\n(idle while the user is thinking)";
+
+/* Class = "UILabel"; text = "nps"; ObjectID = "8Ut-Ga-MkL"; */
+"8Ut-Ga-MkL.text" = "nps";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "8kK-li-qf8"; */
+"8kK-li-qf8.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Start Game"; ObjectID = "8mB-cw-zka"; */
+"8mB-cw-zka.normalTitle" = "Start Game";
+
+/* Class = "UIBarButtonItem"; title = "Pass"; ObjectID = "DXw-lu-qL8"; */
+"DXw-lu-qL8.title" = "Pass";
+
+/* Class = "UIBarButtonItem"; title = "◀"; ObjectID = "DZe-5s-Hxu"; */
+"DZe-5s-Hxu.title" = "◀";
+
+/* Class = "UILabel"; text = "Cinit"; ObjectID = "Do5-4b-Wz6"; */
+"Do5-4b-Wz6.text" = "Cinit";
+
+/* Class = "UILabel"; text = "Select Neural Network:"; ObjectID = "H6d-2c-MHS"; */
+"H6d-2c-MHS.text" = "Select Neural Network:";
+
+/* Class = "UIBarButtonItem"; title = "Start Game"; ObjectID = "HGf-5c-Jas"; */
+"HGf-5c-Jas.title" = "Start Game";
+
+/* Class = "UILabel"; text = "virtual loss"; ObjectID = "IaZ-18-eYh"; */
+"IaZ-18-eYh.text" = "virtual loss";
+
+/* Class = "UIBarButtonItem"; title = "Main Menu"; ObjectID = "Kqq-Rp-dAa"; */
+"Kqq-Rp-dAa.title" = "Main Menu";
+
+/* Class = "UIBarButtonItem"; title = "Resign"; ObjectID = "QAY-QV-3xU"; */
+"QAY-QV-3xU.title" = "Resign";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[0] = "View AI Self-Play"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[0]" = "View AI Self-Play";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[1] = "Play as Black"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[1]" = "Play as Black";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[2] = "Play as White"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[2]" = "Play as White";
+
+/* Class = "UIButton"; normalTitle = "Start Study"; ObjectID = "SZI-Xg-tvC"; */
+"SZI-Xg-tvC.normalTitle" = "Start Study";
+
+/* Class = "UILabel"; text = "Cfpu"; ObjectID = "SiL-1b-3OQ"; */
+"SiL-1b-3OQ.text" = "Cfpu";
+
+/* Class = "UITextField"; text = "0.15"; ObjectID = "TMr-ry-YWL"; */
+"TMr-ry-YWL.text" = "0.15";
+
+/* Class = "UILabel"; text = "sec."; ObjectID = "UPr-0u-YmB"; */
+"UPr-0u-YmB.text" = "sec.";
+
+/* Class = "UITextField"; text = "3"; ObjectID = "XEE-CP-hEp"; */
+"XEE-CP-hEp.text" = "3";
+
+/* Class = "UITextField"; text = "19652"; ObjectID = "Xwy-4P-rdL"; */
+"Xwy-4P-rdL.text" = "19652";
+
+/* Class = "UITextField"; text = "1.5"; ObjectID = "awN-Jq-za7"; */
+"awN-Jq-za7.text" = "1.5";
+
+/* Class = "UIButton"; normalTitle = "Paste SGF for Game"; ObjectID = "bpS-Ea-sOp"; */
+"bpS-Ea-sOp.normalTitle" = "Paste SGF for Game";
+
+/* Class = "UITextField"; text = "1.0"; ObjectID = "fkp-HQ-yJJ"; */
+"fkp-HQ-yJJ.text" = "1.0";
+
+/* Class = "UIButton"; normalTitle = "PV"; ObjectID = "hQ2-PS-ktR"; */
+//"hQ2-PS-ktR.normalTitle" = "PV";
+
+/* Class = "UINavigationItem"; title = "A Master of Go"; ObjectID = "lFA-Y2-76O"; */
+"lFA-Y2-76O.title" = "A Master of Go";
+
+/* Class = "UILabel"; text = "softmax temperature"; ObjectID = "pJ4-O4-blh"; */
+"pJ4-O4-blh.text" = "softmax temperature";
+
+/* Class = "UILabel"; text = "Cbase"; ObjectID = "phV-NC-lWG"; */
+"phV-NC-lWG.text" = "Cbase";
+
+/* Class = "UILabel"; text = "Time per move:"; ObjectID = "rxg-As-BgU"; */
+"rxg-As-BgU.text" = "Time per move:";
+
+/* Class = "UITextField"; text = "3"; ObjectID = "usa-as-giy"; */
+"usa-as-giy.text" = "3";
+
+/* Class = "UINavigationItem"; title = "Game Conditions"; ObjectID = "yfp-EX-sqR"; */
+"yfp-EX-sqR.title" = "Game Conditions";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
+"5bL-9j-mBK.title" = "Settings";
+
+/* Class = "UILabel"; text = "UI Settings"; ObjectID = "EVw-a1-KQB"; */
+"EVw-a1-KQB.text" = "UI Settings";
+
+/* Class = "UILabel"; text = "Sound:"; ObjectID = "c45-PM-usS"; */
+"c45-PM-usS.text" = "Sound:";
+
+/* Class = "UILabel"; text = "Display coordinate labels:"; ObjectID = "PPZ-Fj-BmR"; */
+"PPZ-Fj-BmR.text" = "Display coordinate labels:";
+
+/* Class = "UILabel"; text = "Disable idle timer while charging:"; ObjectID = "aXm-ug-gEW"; */
+"aXm-ug-gEW.text" = "Disable idle timer while charging:";
+
+/* Class = "UILabel"; text = "Performance Settings:"; ObjectID = "5Yi-as-J5z"; */
+"5Yi-as-J5z.text" = "Performance Settings:";
+
+/* Class = "UILabel"; text = "Batch Size:"; ObjectID = "SrQ-Jy-Y4Y"; */
+"SrQ-Jy-Y4Y.text" = "Batch Size:";
+
+/* Class = "UILabel"; text = "Number of threads:"; ObjectID = "XFl-sS-phC"; */
+"XFl-sS-phC.text" = "Number of threads:";
+
+/* Class = "UILabel"; text = "Low Thread Priority:"; ObjectID = "wRU-Ni-JZv"; */
+"wRU-Ni-JZv.text" = "Low Thread Priority:";
+
+/* Class = "UILabel"; text = "Game Mode Settings"; ObjectID = "xD4-Me-qnE"; */
+"xD4-Me-qnE.text" = "Game Mode Settings";
+
+/* Class = "UILabel"; text = "Display Winrate:"; ObjectID = "2fe-sT-vOF"; */
+"2fe-sT-vOF.text" = "Display Winrate:";
+
+/* Class = "UILabel"; text = "Stochastic Opening:"; ObjectID = "bhU-uG-Mkc"; */
+"bhU-uG-Mkc.text" = "Stochastic Opening:";
+
+/* Class = "UILabel"; text = "Extends time for ladder:"; ObjectID = "JT5-fY-swP"; */
+"JT5-fY-swP.text" = "Max. times of time-extensions for ladders:";
+
+/* Class = "UILabel"; text = "Study Mode Settings"; ObjectID = "7NV-fm-PId"; */
+"7NV-fm-PId.text" = "Study Mode Settings";
+
+/* Class = "UILabel"; text = "Variations on Full Board:"; ObjectID = "pf8-0d-vY7"; */
+"pf8-0d-vY7.text" = "Variations on Full Board:";
+
+/* Class = "UILabel"; text = "Bad move threshold(%):"; ObjectID = "vof-pM-uwf"; */
+"vof-pM-uwf.text" = "Bad move threshold(%):";
+
+/* Class = "UILabel"; text = "Max time per position(sec.):"; ObjectID = "035-UG-FyM"; */
+"035-UG-FyM.text" = "Max time per position(sec.):";
+
+/* Class = "UILabel"; text = "AI Engine Parameters"; ObjectID = "c25-vc-Hf5"; */
+"c25-vc-Hf5.text" = "AI Engine Parameters";
+
+/* Class = "UIButton"; normalTitle = "Restore Defaults"; ObjectID = "zHU-Tf-ljD"; */
+"zHU-Tf-ljD.normalTitle" = "Restore Defaults";
+
+/* Class = "UILabel"; text = "Handicap stones"; ObjectID = "Vf7-Ho-2k2"; */
+"Vf7-Ho-2k2.text" = "Handicap stones:";
+
+/* Class = "UILabel"; text = "Keep touching!"; ObjectID = "SHr-fR-g3f"; */
+"SHr-fR-g3f.text" = "Keep touching!";
+
+/* Class = "UILabel"; text = "coins left"; ObjectID = "jsw-7h-6pV"; */
+"jsw-7h-6pV.text" = "coins left";
+
+/* Class = "UILabel"; text = "current"; ObjectID = "71o-ks-ZCP"; */
+"71o-ks-ZCP.text" = "current";
+
+/* Class = "UILabel"; text = "av. with previous"; ObjectID = "Xgc-pk-GXq"; */
+"Xgc-pk-GXq.text" = "av. with previous";
+
+/* Class = "UILabel"; text = "accurate"; ObjectID = "Qdy-Wk-Ah3"; */
+"Qdy-Wk-Ah3.text" = "accurate";
+
+/* Class = "UILabel"; text = "coins left"; ObjectID = "mY0-5f-6Ej"; */
+"mY0-5f-6Ej.text" = "coins left";
+
+/* Class = "UINavigationItem"; title = "Coin Store"; ObjectID = "DwS-7e-QgM"; */
+"DwS-7e-QgM.title" = "Coin Store";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "uWe-Au-urD"; */
+"uWe-Au-urD.title" = "Close";
+
+/* Class = "UILabel"; text = "Here is an in-app virtual coin store.
+ You can use server-side functionalities by using coins.
+ Current server-side functionality is,
+ score estimation : 1 coin per one time."; ObjectID = "qfC-Nz-TnO"; */
+"qfC-Nz-TnO.text" = "Here is an in-app virtual coin store.
+You can use server-side functionalities by using coins.
+Current server-side functionality is,";
+
+/* Class = "UILabel"; text = "score estimation"; ObjectID = "pjQ-ma-0dB"; */
+"pjQ-ma-0dB.text" = "score estimation";
+
+/* Class = "UILabel"; text = "1 coin at one time"; ObjectID = "plo-aI-ZhI"; */
+"plo-aI-ZhI.text" = "1 coin at one time";
+
+/* Class = "UILabel"; text = "Coins left"; ObjectID = "4i1-GN-7oc"; */
+"4i1-GN-7oc.text" = "Coins left";

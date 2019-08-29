@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  ChildOfZero
+
+  Created by 市川雄二 on 2018/10/26.
+  Copyright © 2018 New 3 Rs. All rights reserved.
+*/
+
+"introduction" = "    \"바둑의 선생\"은 강한 뉴럴네트워크를 탑재한 바둑AI입니다.
+    \"바둑의 스승\"이라고 대국하거나 검토하거나, 즐겨 주십시오! ";
+"references" = "참고
+    ・앱 아이콘은 月岡芳年(1839-1892)의 \"鍾馗\"입니다.
+    ・AI 알고리즘은 DeepMind 사의 AlphaZero과 같습니다.
+    ・Leela Zero 프로젝트에서 파생 신경망과 ELF OpenGo (저자 : Yuandong Tian, ​​et al. 2018, https://github.com/pytorch/ELF)의 신경망과 PhoenixGo (저자 : Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo)의 신경망을 탑재하고 있습니다.
+    ・학습 모드의 정보 프리젠 테이션은 Lizzie(https://github.com/featurecat/lizzie)와 호환됩니다.";
+
+"end greeting" = "잘 두었습니다.";
+"start greeting" = "잘 부탁합니다.";
+"resign" = "졌습니다.";
+"pass" = "통과합니다.";
+
+"alert" = "메시지";
+"unsupported board size" = "크기(%@)는 지원되지 않습니다.";
+"invalid SGF" = "SGF가 유효하지 않은 것 같습니다.\n%@";
+"illegal move in SGF" = "불법적 인 수(%d)이있는 것처럼 보입니다.";
+"trouble" = "죄송합니다, AI 문제가있는 것 같습니다.";
+"crash" = "AI 엔진이 비정상적으로 종료되었습니다. 기본 메뉴로 돌아가 한 번 시도하십시오. 반복되는 경우 지원 페이지에서 문의하십시오. 나는 대단히 유감 스럽다.";
+"illegal move" = "그 장소는 착수금지점 인 것 같습니다.";
+"not text" = "텍스트 파일이 아닌 것 같습니다.\n문자 코드로 UTF-8이 필요합니다.";
+"confirm file" = "파일 열기";
+"confirm message" = "현재 대국이나 공부를 포기 하시겠습니까?";
+"cancel" = "취소";
+"go to main menu" = "메인 메뉴로 이동";
+"are you sure" = "확실해?";
+"let's study" = "검토시다.";
+"komi is not supported" = "덤은 %.1f이지만 %.1f가 채택됩니다.";
+"komi is not specified" = "덤은 지정되지 않았지만 %.1f가 채택됩니다.";
+"going to resign" = "던지려고 하다";
+"how to save" = "(기본 메뉴의 공유 버튼을 통해이 기보를 저장할 수 있습니다)";
+"sorry" = "죄송합니다";
+"crash during game" = "마지막 게임 중에 응용 프로그램이 충돌 한 것 같습니다.
+공유 버튼에서 게임 SGF를 얻을 수 있습니다.
+그것을 클립 보드에 복사합니까?";
+"buy" = "구매";
+"buying" = "수속 중";
+"bought" = "절차 완료했습니다. 구입 감사합니다!
+이제 %d 개의 동전을 가지고 있습니다.";
+"failed to buy" = "죄송합니다. 수속을 할 수 없습니다.";
+"close" = "닫기";
+"extend search" = "검색 연장";
+"invalid product IDs" = "잘못된 제품 ID를 감지했습니다.";
+"no product IDs" = "App Store가 준비중인 것 같습니다.\n잠시 후 다시 시도해주십시오.";

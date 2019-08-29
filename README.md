@@ -1,6 +1,11 @@
 # a_master_of_go
 an iOS App of a strong Go AI
 
+## Requests for Helps of Locatlizations
+I make current (version 3.8.0) localization files.
+Any volunteers for improvements and localizations for other languages are welcome.
+Please make pull requests!
+
 ## Downloadable extra weights
 Please copy one of URLs below and paste "DL weight from:" field in the setting modal on the app.
 

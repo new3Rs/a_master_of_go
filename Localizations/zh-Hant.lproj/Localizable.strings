@@ -1,0 +1,53 @@
+/*
+   Localizable.strings
+   ChildOfZero
+ 
+   Created by 市川雄二 on 2018/10/26.
+   Copyright © 2018 New 3 Rs. All rights reserved.
+ */
+
+"introduction" = "    <<圍棋老師>>是一個具有強大神經網絡的圍棋AI。
+    你能與其進行對弈或者研究，希望你會喜歡！ ";
+"references" = "參考
+    ・應用程序圖標是月岡芳年(1839-1892)的<<鍾馗>>。
+    ・採用了與DeepMind的AlphaZero相同的AI算法。
+    ・由Leela Zero衍生的神經網絡以及ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)和PhoenixGo(Authors: Qinsong Zeng, et al. 2018, https:/ /github.com/Tencent/PhoenixGo)的神經網絡提供支持。
+    ・使用ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)的神經網絡權重。
+    ・研究模式中的信息呈現與Lizzie(https://github.com/featurecat/lizzie)兼容。";
+
+"end greeting" = "謝謝你跟我下棋";
+"start greeting" = "請多指教";
+"resign" = "你下得真好！";
+"pass" = "虛手";
+
+"alert" = "信息";
+"unsupported board size" = "尺寸(%@)不受支持。";
+"invalid SGF" = "無效的SGF棋譜。\n%@";
+"illegal move in SGF" = "棋譜中有無效的走子(%d)。";
+"trouble" = "抱歉，AI好像出現問題了。";
+"crash" = "AI引擎異常終止。請返回主菜單並重試。如果重現，請從支持頁面與我們聯繫。我非常抱歉。";
+"illegal move" = "無效的走子。";
+"not text" = "無效的文本文件。\n當前只支持UTF-8字符集。";
+"confirm file" = "打開文件";
+"confirm message" = "你確定放棄當前的對局或研究嗎？";
+"cancel" = "取消";
+"go to main menu" = "去主菜單";
+"are you sure" = "你確定嗎？";
+"let's study" = "開始研究吧！";
+"komi is not supported" = "貼目是%.1f，實際貼%.1f目。";
+"komi is not specified" = "未指定貼目，默認貼%.1f目。";
+"going to resign" = "你打算認輸";
+"how to save" = "(您可以通過主菜單中的分享按鈕保存此棋譜)";
+"sorry" = "對不起";
+"crash during game" = "似乎應用程序在上次對局中崩潰了。
+你可以通過分享按鈕檢索棋譜(SGF)。
+你把它複製到剪貼板嗎？";
+"buy" = "要買";
+"buying" = "正在處理中";
+"bought" = "這個過程結束了。謝謝你的購買！
+現在你有%d硬幣。";
+"failed to buy" = "對不起，這個過程無法完成。";
+"close" = "關";
+"extend search" = "擴展搜索";
+"invalid product IDs" = "檢測到無效的產品ID。";
+"no product IDs" = "似乎App Store正在準備物品。\n請稍等一會兒然後再試一次。";

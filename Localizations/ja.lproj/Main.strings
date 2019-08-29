@@ -1,0 +1,164 @@
+
+/* Class = "UIButton"; normalTitle = "Paste SGF for Study"; ObjectID = "2OC-cc-Md1"; */
+"2OC-cc-Md1.normalTitle" = "検討用にSGFをペースト";
+
+/* Class = "UILabel"; text = "Komi:"; ObjectID = "4dJ-Dl-CbS"; */
+"4dJ-Dl-CbS.text" = "コミ:";
+
+/* Class = "UILabel"; text = "Battery saving:\n(idle while the user is thinking)"; ObjectID = "6lY-KH-mPQ"; */
+"6lY-KH-mPQ.text" = "バッテリ節電:\n(ユーザが考慮中は探索しない)";
+
+/* Class = "UILabel"; text = "nps"; ObjectID = "8Ut-Ga-MkL"; */
+"8Ut-Ga-MkL.text" = "nps";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "8kK-li-qf8"; */
+"8kK-li-qf8.text" = "0";
+
+/* Class = "UIButton"; normalTitle = "Start Game"; ObjectID = "8mB-cw-zka"; */
+"8mB-cw-zka.normalTitle" = "対局開始";
+
+/* Class = "UIBarButtonItem"; title = "Pass"; ObjectID = "DXw-lu-qL8"; */
+"DXw-lu-qL8.title" = "パスする";
+
+/* Class = "UIBarButtonItem"; title = "Start Game"; ObjectID = "HGf-5c-Jas"; */
+"HGf-5c-Jas.title" = "対局開始";
+
+/* Class = "UIBarButtonItem"; title = "Main Menu"; ObjectID = "Kqq-Rp-dAa"; */
+"Kqq-Rp-dAa.title" = "メインメニュー";
+
+/* Class = "UIBarButtonItem"; title = "Resign"; ObjectID = "QAY-QV-3xU"; */
+"QAY-QV-3xU.title" = "投了する";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[0] = "View AI Self-Play"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[0]" = "AI自己対戦を観戦する";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[1] = "Play as Black"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[1]" = "黒を持つ";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[2] = "Play as White"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[2]" = "白を持つ";
+
+/* Class = "UIButton"; normalTitle = "Start Study"; ObjectID = "SZI-Xg-tvC"; */
+"SZI-Xg-tvC.normalTitle" = "検討開始";
+
+/* Class = "UILabel"; text = "sec."; ObjectID = "UPr-0u-YmB"; */
+"UPr-0u-YmB.text" = "秒";
+
+/* Class = "UIButton"; normalTitle = "Paste SGF for Game"; ObjectID = "bpS-Ea-sOp"; */
+"bpS-Ea-sOp.normalTitle" = "対局用にSGFをペースト";
+
+/* Class = "UIButton"; normalTitle = "PV"; ObjectID = "hQ2-PS-ktR"; */
+//"hQ2-PS-ktR.normalTitle" = "PV";
+
+/* Class = "UINavigationItem"; title = "Child of Zero"; ObjectID = "lFA-Y2-76O"; */
+"lFA-Y2-76O.title" = "囲碁の師匠";
+
+/* Class = "UILabel"; text = "Time per move:"; ObjectID = "rxg-As-BgU"; */
+"rxg-As-BgU.text" = "秒読み:";
+
+/* Class = "UITextField"; text = "3"; ObjectID = "usa-as-giy"; */
+"usa-as-giy.text" = "3";
+
+/* Class = "UINavigationItem"; title = "Game Conditions"; ObjectID = "yfp-EX-sqR"; */
+"yfp-EX-sqR.title" = "対局条件";
+
+/* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
+"5bL-9j-mBK.title" = "設定";
+
+/* Class = "UILabel"; text = "UI Settings"; ObjectID = "EVw-a1-KQB"; */
+"EVw-a1-KQB.text" = "UI設定";
+
+/* Class = "UILabel"; text = "Sound:"; ObjectID = "c45-PM-usS"; */
+"c45-PM-usS.text" = "音声:";
+
+/* Class = "UILabel"; text = "Display coordinate labels:"; ObjectID = "PPZ-Fj-BmR"; */
+"PPZ-Fj-BmR.text" = "座標ラベルを表示する:";
+
+/* Class = "UILabel"; text = "Disable idle timer while charging:"; ObjectID = "aXm-ug-gEW"; */
+"aXm-ug-gEW.text" = "充電時にアイドルタイマーをオフにする:";
+
+/* Class = "UILabel"; text = "Performance Settings:"; ObjectID = "5Yi-as-J5z"; */
+"5Yi-as-J5z.text" = "パフォーマンス設定:";
+
+/* Class = "UILabel"; text = "Batch Size:"; ObjectID = "SrQ-Jy-Y4Y"; */
+"SrQ-Jy-Y4Y.text" = "バッチサイズ:";
+
+/* Class = "UILabel"; text = "Number of threads:"; ObjectID = "XFl-sS-phC"; */
+"XFl-sS-phC.text" = "スレッド数:";
+
+/* Class = "UILabel"; text = "Low Thread Priority:"; ObjectID = "wRU-Ni-JZv"; */
+"wRU-Ni-JZv.text" = "スレッドを低優先:";
+
+/* Class = "UILabel"; text = "Game Mode Settings"; ObjectID = "xD4-Me-qnE"; */
+"xD4-Me-qnE.text" = "対局モード設定";
+
+/* Class = "UILabel"; text = "Display Winrate:"; ObjectID = "2fe-sT-vOF"; */
+"2fe-sT-vOF.text" = "形勢を表示:";
+
+/* Class = "UILabel"; text = "Stochastic Opening:"; ObjectID = "bhU-uG-Mkc"; */
+"bhU-uG-Mkc.text" = "確率的な序盤:";
+
+/* Class = "UILabel"; text = "Extends time for ladder:"; ObjectID = "JT5-fY-swP"; */
+"JT5-fY-swP.text" = "シチョウの際、時間を延長する最大回数:";
+
+/* Class = "UILabel"; text = "Study Mode Settings"; ObjectID = "7NV-fm-PId"; */
+"7NV-fm-PId.text" = "検討モード設定";
+
+/* Class = "UILabel"; text = "Variations on Full Board:"; ObjectID = "pf8-0d-vY7"; */
+"pf8-0d-vY7.text" = "単一碁盤での変化図表示";
+
+/* Class = "UILabel"; text = "Bad move threshold(%):"; ObjectID = "vof-pM-uwf"; */
+"vof-pM-uwf.text" = "悪手しきい値(%):";
+
+/* Class = "UILabel"; text = "Max time per position(sec.):"; ObjectID = "035-UG-FyM"; */
+"035-UG-FyM.text" = "1局面の最大検討時間(秒):";
+
+/* Class = "UILabel"; text = "AI Engine Parameters"; ObjectID = "c25-vc-Hf5"; */
+"c25-vc-Hf5.text" = "AIエンジンパラメータ";
+
+/* Class = "UIButton"; normalTitle = "Restore Defaults"; ObjectID = "zHU-Tf-ljD"; */
+"zHU-Tf-ljD.normalTitle" = "デフォルトに戻す";
+
+/* Class = "UILabel"; text = "Handicap stones"; ObjectID = "Vf7-Ho-2k2"; */
+"Vf7-Ho-2k2.text" = "置き石:";
+
+/* Class = "UILabel"; text = "Keep touching!"; ObjectID = "SHr-fR-g3f"; */
+"SHr-fR-g3f.text" = "長押ししてください";
+
+/* Class = "UILabel"; text = "coins left"; ObjectID = "jsw-7h-6pV"; */
+"jsw-7h-6pV.text" = "コインの残り";
+
+/* Class = "UILabel"; text = "current"; ObjectID = "71o-ks-ZCP"; */
+"71o-ks-ZCP.text" = "現局面";
+
+/* Class = "UILabel"; text = "av. with previous"; ObjectID = "Xgc-pk-GXq"; */
+"Xgc-pk-GXq.text" = "一手前との平均";
+
+/* Class = "UILabel"; text = "accurate"; ObjectID = "Qdy-Wk-Ah3"; */
+"Qdy-Wk-Ah3.text" = "整地";
+
+/* Class = "UILabel"; text = "coins left"; ObjectID = "mY0-5f-6Ej"; */
+"mY0-5f-6Ej.text" = "コインの残り";
+
+/* Class = "UINavigationItem"; title = "Coin Store"; ObjectID = "DwS-7e-QgM"; */
+"DwS-7e-QgM.title" = "コインストア";
+
+/* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "uWe-Au-urD"; */
+"uWe-Au-urD.title" = "閉じる";
+
+/* Class = "UILabel"; text = "Here is an in-app virtual coin store.
+ You can use server-side functionalities by using coins.
+ Current server-side functionality is,
+ score estimation : 1 coin per one time."; ObjectID = "qfC-Nz-TnO"; */
+"qfC-Nz-TnO.text" = "ここはアプリ内仮想コインストアです。
+コインを使ってサーバーサイドの機能を使うことができます。
+現在のサーバーサイド機能は以下のものがあります。";
+
+/* Class = "UILabel"; text = "score estimation"; ObjectID = "pjQ-ma-0dB"; */
+"pjQ-ma-0dB.text" = "地合い/整地計算";
+
+/* Class = "UILabel"; text = "1 coin at one time"; ObjectID = "plo-aI-ZhI"; */
+"plo-aI-ZhI.text" = "1回1コイン";
+
+/* Class = "UILabel"; text = "Coins left"; ObjectID = "4i1-GN-7oc"; */
+"4i1-GN-7oc.text" = "残りのコイン";

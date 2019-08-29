@@ -1,0 +1,52 @@
+/* 
+  Localizable.strings
+  ChildOfZero
+
+  Created by 市川雄二 on 2018/10/26.
+  Copyright © 2018 New 3 Rs. All rights reserved.
+*/
+
+"introduction" = "    「囲碁の師匠」は強いニューラルネットワークを搭載した囲碁AIです。
+    「囲碁の師匠」と対局したり検討したり、お楽しみください！";
+"references" = "参考
+    ・アプリアイコンは月岡芳年(1839-1892)の「鍾馗」です。
+    ・AIアルゴリズムはDeepMind社のAlphaZeroと同じものです。
+    ・Leela Zeroプロジェクトからの派生ニューラルネットワークと、ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)のニューラルネットワークと、PhoenixGo(作者: Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo)のニューラルネットワークを搭載しています。
+    ・検討モードでの情報表示はLizzie(https://github.com/featurecat/lizzie)互換です。";
+
+"end greeting" = "ありがとうございました";
+"start greeting" = "おねがいします";
+"resign" = "負けました";
+"pass" = "パスします";
+
+"alert" = "メッセージ";
+"unsupported board size" = "未サポートのサイズ(%@)です。";
+"invalid SGF" = "SGFが適切でないようです。\n%@";
+"illegal move in SGF" = "SGFに着手禁止の手(%d)が含まれているようです。";
+"trouble" = "すみません、AIに問題があるようです。";
+"crash" = "AIエンジンが異常終了しました。一度メインメニューに戻ってお試しください。繰り返すようでしたらサポートページからご連絡ください。申し訳ございませんでした。";
+"illegal move" = "そこは着手禁止点です。";
+"not text" = "テキストファイルではないようです。\n文字コードがUTF-8である必要があります。";
+"confirm file" = "ファイルを開きます。";
+"confirm message" = "現在の対局/検討を破棄してもよろしいですか？";
+"cancel" = "キャンセル";
+"go to main menu" = "メインメニューに移動します";
+"are you sure" = "よろしいですか？";
+"let's study" = "検討しましょう。";
+"komi is not supported" = "コミが%.1fですが、%.1fを採用します。";
+"komi is not specified" = "コミが未設定ですが、%.1fを採用します。";
+"going to resign" = "投了しようとしています";
+"how to save" = "(この棋譜は、メインメニューに移動後、シェアボタンで保存できます)";
+"sorry" = "申し訳ございません";
+"crash during game" = "前回、対局中にアプリが落ちた模様です。
+棋譜は共有ボタンから取り出せます。
+クリップボードに棋譜をコピーしますか？";
+"buy" = "購入する";
+"buying" = "手続き中";
+"bought" = "手続き完了しました。ご購入ありがとうございました！
+お持ちのコインは%dになりました。";
+"failed to buy" = "申し訳ございません。手続きができませんでした。";
+"close" = "閉じる";
+"extend search" = "探索延長";
+"invalid product IDs" = "無効な商品IDを検出しました。";
+"no product IDs" = "App Storeが準備中のようです。\nしばらく待ってから再度お試しください。";

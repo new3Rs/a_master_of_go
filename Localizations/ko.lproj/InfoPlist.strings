@@ -1,0 +1,9 @@
+/* 
+  InfoPlist.strings
+  ChildOfZero
+
+  Created by 市川雄二 on 2018/10/29.
+  Copyright © 2018 New 3 Rs. All rights reserved.
+*/
+
+CFBundleDisplayName = "바둑의 스승";
