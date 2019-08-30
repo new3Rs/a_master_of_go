@@ -1,10 +1,10 @@
 import sys
 import tensorflow as tf
-import optimize_for_inference_lib
+from tensorflow.python.tools import optimize_for_inference_lib
 
 if __name__ == "__main__":
   if len(sys.argv) < 3:
-    print('Usage: python {} source destination'.format(sys.argv[0])) 
+    print("Usage: python {} source destination".format(sys.argv[0])) 
     sys.exit()
 
   inputGraph = tf.GraphDef()

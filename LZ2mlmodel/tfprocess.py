@@ -320,7 +320,6 @@ class TFProcess:
                 new_weight = tf.constant(new_weights[e], shape=shape)
                 self.assign(weights, tf.transpose(new_weight, [2, 3, 1, 0]))
             elif weights.shape.ndims == 2:
-                print(e, weights)
                 # Fully connected layers are [in, out] in TF
                 #
                 # [out, in] in Leela
