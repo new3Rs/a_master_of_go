@@ -1,4 +1,4 @@
-GRAPH = tmp/graph.pb
+GRAPH = tmp/graph.pbtxt
 CHECK_POINT = tmp/model.ckpt
 FROZEN_MODEL = tmp/frozen_model.pb
 OPTIMIZED_MODEL = tmp/optimized.pb
@@ -15,25 +15,25 @@ ${DOWNLOADED}:
 	curl -OL ${URL}
 
 ${EXPANDED}: ${DOWNLOADED}
-	gunzip ${DOWNLOADED}
+	gunzip -k -f ${DOWNLOADED}
 
 ${GRAPH}: ${EXPANDED}
-	python3 save_graph.py ${SIZE} ${EXPANDED}
+	python save_graph.py ${SIZE} $< $@
 
 ${CHECK_POINT}: ${EXPANDED} ${GRAPH}
-	python3 save_graph.py ${SIZE} ${EXPANDED}
+	python save_graph.py ${SIZE} $< ${GRAPH}
 
 ${FROZEN_MODEL}: ${GRAPH} ${CHECK_POINT}.index
-	freeze_graph --input_graph=${GRAPH} --input_checkpoint=${CHECK_POINT} --output_graph=${FROZEN_MODEL} --output_node_names=fc1,fc3
+	freeze_graph --input_graph=$< --input_checkpoint=${CHECK_POINT} --output_graph=$@ --output_node_names=fc1,fc3
 
 ${OPTIMIZED_MODEL}: ${FROZEN_MODEL}
-	python3 optimize.py ${FROZEN_MODEL} ${OPTIMIZED_MODEL}
+	python optimize.py $< $@
 
 ${TARGET}: ${OPTIMIZED_MODEL}
-	python3 convert_coreml.py ${OPTIMIZED_MODEL} ${SIZE} ${TARGET}
+	python convert_coreml.py $< ${SIZE} $@
 
 ${TARGET_FP16}: ${TARGET}
-	python3 convert_fp16.py ${TARGET} ${TARGET_FP16}
+	python convert_fp16.py $< $@
 
 clean:
 	rm -rf tmp *.mlmodel

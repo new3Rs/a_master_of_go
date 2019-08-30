@@ -10,8 +10,8 @@ FEATURES = 18
 
 
 if __name__ == "__main__":
-    if len(sys.argv) < 3:
-        print('Usage: python {} size path'.format(sys.argv[0])) 
+    if len(sys.argv) < 4:
+        print('Usage: python {} size source target'.format(sys.argv[0])) 
         sys.exit()
 
     data_format = 'NHWC' # for tfcoreml
@@ -40,7 +40,7 @@ if __name__ == "__main__":
     tfprocess.training = False # batch normalizationをコンバートするため
     tfprocess.init_net(planes, probs, winner)
     tfprocess.replace_weights(weights)
-    tf.train.write_graph(tf.get_default_graph(), './tmp', 'graph.pb', as_text=True)
+    tf.train.write_graph(tf.get_default_graph(), os.path.dirname(sys.argv[3]), os.path.basename(sys.argv[3]), as_text=True)
     with tf.get_default_graph().as_default():
         saver = tf.train.Saver()
         print(saver.save(tfprocess.session, "./tmp/model.ckpt"))
