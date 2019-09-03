@@ -10,6 +10,10 @@ Please make pull requests!
 Please copy one of URLs below and paste "DL weight from:" field in the setting modal on the app.
 
 <dl>
+<dt>URL: https://github.com/new3Rs/a_master_of_go/releases/download/ELFOpenGo_v2/ELFOpenGo_v2.json</dt>
+<dd>[ELF](https://github.com/pytorch/ELF) v2 weight.</dd>
+<dt>URL: https://github.com/new3Rs/a_master_of_go/releases/download/PhoenixGo_v1/PhoenixGo_v1_fp16.json</dt>
+<dd>[PhoenixGo](https://github.com/Tencent/PhoenixGo) v1 weight.</dd>
 <dt>URL: https://github.com/new3Rs/a_master_of_go/releases/download/LeelaZero_226/LeelaZero_226_fp16.json</dt>
 <dt>Alternative URL: https://files.fm/down.php?i=734d8pyb&n=LeelaZero_226_fp16.json.</dt>
 <dd>[Leela Zero](https://github.com/leela-zero/leela-zero) #226 weight. This is a recent 40b weight trained by self-plays.</dd>
