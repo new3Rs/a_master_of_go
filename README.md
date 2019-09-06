@@ -12,8 +12,12 @@ Please copy one of URLs below and paste "DL weight from:" field in the setting m
 ### [ELF](https://github.com/pytorch/ELF) v2 weight
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/ELFOpenGo_v2/ELFOpenGo_v2.json
 
+Alternative URL: https://files.fm/down.php?i=cj62qz7k&n=ELFOpenGo_v2.json
+
 ### [PhoenixGo](https://github.com/Tencent/PhoenixGo) v1 weight
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/PhoenixGo_v1/PhoenixGo_v1_fp16.json
+
+Alternative URL: https://files.fm/down.php?i=t4qk726v&n=PhoenixGo_v1_fp16.json
 
 ### [Leela Zero](https://github.com/leela-zero/leela-zero) #226 weight
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/LeelaZero_226/LeelaZero_226_fp16.json
@@ -28,7 +32,7 @@ Alternative URL: https://files.fm/down.php?i=ss46r8ek&n=LeelaZero_15b_eef9_fp16.
 ### [minigo](https://github.com/tensorflow/minigo) v17 weight(001003-leviathan)
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/minigo_v17/minigo_v17_fp16.json
 
-Alternative URL: https://files.fm/down.php?i=9ms8d6kc&n=minigo_v17_fp16.json.)
+Alternative URL: https://files.fm/down.php?i=9ms8d6kc&n=minigo_v17_fp16.json
 
 WARNING: Version 3.4.0 or later is required. This weight is very heavy even if you use A12 processor (less than 30 nps).
 
