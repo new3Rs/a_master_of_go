@@ -16,19 +16,19 @@ You can play or study with \"A Master of Go\". Enjoy!";
 
 "end greeting" = "Thank you for playing with me!";
 "start greeting" = "Let's play!";
-"resign" = "Your nice game!";
+"resign" = "You had a nice game!";
 "pass" = "I pass.";
 
 "alert" = "Message";
 "unsupported board size" = "The size(%@) is not supported.";
 "invalid SGF" = "It looks like an invalid SGF.\n%@";
 "illegal move in SGF" = "It looks like that there is an illegal move(%d).";
-"trouble" = "Sorry, AI seems to have trouble.";
-"crash" = "The AI ​​engine terminated abnormally. Please return to the main menu and try once. If repeated, please contact us from the support page. I am terribly sorry.";
-"illegal move" = "Here is an illegal move.";
+"trouble" = "Sorry, AI seems to be having trouble.";
+"crash" = "The AI ​​engine terminated abnormally. Please return to the main menu and try again. If it repeats, please contact us from the support page. I am terribly sorry.";
+"illegal move" = "That is an illegal move.";
 "not text" = "It doesn't look like a text file.\nUTF-8 is required as character code.";
 "confirm file" = "Open a file";
-"confirm message" = "Are you sure to abandon current game or study?";
+"confirm message" = "Are you sure you want to abandon current game or study?";
 "cancel" = "Cancel";
 "go to main menu" = "Go to Main Menu";
 "are you sure" = "Are you sure?";
@@ -39,8 +39,8 @@ You can play or study with \"A Master of Go\". Enjoy!";
 "how to save" = "(You can save this record via the share button in main menu)";
 "sorry" = "I am sorry";
 "crash during game" = "It seems that the app crashed during a game last time.
-You can retrieve the game SGF by the share button.
-Do you copy it into clipboard?";
+You can retrieve the game SGF with the share button.
+You may copy it into clipboard.";
 "buy" = "Buy";
 "buying" = "processing";
 "bought" = "The process finished. Thank you for purchasing!
@@ -49,4 +49,4 @@ Now you have %d coins.";
 "close" = "Close";
 "extend search" = "Extend search";
 "invalid product IDs" = "Invalid product IDs are detected.";
-"no product IDs" = "It seems that App Store is preparing items.\nPlease wait for a while then try again.";
+"no product IDs" = "It seems that App Store is preparing items.\nPlease wait for a while, then try again.";
