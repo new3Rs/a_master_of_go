@@ -16,7 +16,7 @@ Alternative URL: https://files.fm/down.php?i=7rbzwqsf&n=LeelaZero_15b_a4b5_fp16.
 
 ### [PhoenixGo](https://github.com/Tencent/PhoenixGo) v1 weight
 
-#### for iOS 13 or later
+#### for iOS 13 or later (It needs version 3.11.0 or later.)
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/PhoenixGo_v1_for_iOS13/PhoenixGo_v1_fp16.json
 
 Alternative URL: https://files.fm/down.php?i=t4qk726v&n=PhoenixGo_v1_fp16.json
@@ -25,6 +25,8 @@ Alternative URL: https://files.fm/down.php?i=t4qk726v&n=PhoenixGo_v1_fp16.json
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/PhoenixGo_v1/PhoenixGo_v1_fp16.json
 
 Alternative URL: https://files.fm/down.php?i=t4qk726v&n=PhoenixGo_v1_fp16.json
+
+This weight works on iOS 13 but runs slowly. Please use the above weight for iOS 13.
 
 ### [ELF](https://github.com/pytorch/ELF) v2 weight
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/ELFOpenGo_v2/ELFOpenGo_v2.json
