@@ -10,9 +10,20 @@ Please make pull requests!
 Please copy one of URLs below and paste "DL weight from:" field in the setting modal on the app.
 
 ### [KataGo](https://github.com/lightvector/KataGo) middle-size(15b) weight
+#### 19x19
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/g170e-b15c192-s1305382144-d335919935/KataGoG170e_b15c192_fp16.json
 
 Alternative URL: https://files.fm/down.php?i=t33nmyx5&n=KataGoG170e_b15c192_fp16.json
+
+#### 13x13
+URL: https://github.com/new3Rs/a_master_of_go/releases/download/g170e-b15c192-s1305382144-d335919935/KataGoG170e_b15c192_13_fp16.json 
+
+Alternative URL: https://files.fm/down.php?i=t33nmyx5&n=KataGoG170e_b15c192_13_fp16.json 
+
+#### 9x9
+URL: https://github.com/new3Rs/a_master_of_go/releases/download/g170e-b15c192-s1305382144-d335919935/KataGoG170e_b15c192_9x9_fp16.json
+
+Alternative URL: https://files.fm/down.php?i=t33nmyx5&n=KataGoG170e_b15c192_9x9_fp16.json
 
 ### [Leela Zero](https://github.com/leela-zero/leela-zero/issues/2192) a recent light-weight(15b) weight
 URL: https://github.com/new3Rs/a_master_of_go/releases/download/LeelaZero_15b_a4b5/LeelaZero_15b_a4b5_fp16.json
