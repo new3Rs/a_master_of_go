@@ -12,7 +12,8 @@
     ・应用程序图标是月冈芳年(1839-1892)的<<钟馗>>。
     ・采用了与DeepMind的AlphaZero相同的AI算法。
     ・由Leela Zero衍生的神经网络以及ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)和PhoenixGo(Authors: Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo)的神经网络提供支持。
-    ・研究模式中的信息呈现与Lizzie(https://github.com/featurecat/lizzie)兼容。";
+    ・研究模式中的信息呈现与Lizzie(https://github.com/featurecat/lizzie)兼容。
+    ・由KataGo（https://github.com/lightvector/KataGo）驱动，这是一个开源的Go AI引擎。";
 
 "end greeting" = "谢谢你跟我下棋";
 "start greeting" = "请多指教";
@@ -43,10 +44,25 @@
 你把它复制到剪贴板吗？";
 "buy" = "要买";
 "buying" = "正在处理中";
-"bought" = "这个过程结束了。谢谢你的购买！
+"deferred" = "等待批准";
+"purchased" = "已购买";
+"coming soon" = "快来了";
+"new item" = "新物品";
+"bought katago" = "这个过程结束了。谢谢你的购买！
+要使用KataGo引擎，请在权量字段中选择KataGo权量。";
+"restored katago" = "恢复以解锁KataGo引擎。";
+"bought coins" = "这个过程结束了。谢谢你的购买！
 现在你有%d硬币。";
 "failed to buy" = "对不起，这个过程无法完成。";
 "close" = "关";
 "extend search" = "扩展搜索";
 "invalid product IDs" = "检测到无效的产品ID。";
 "no product IDs" = "似乎App Store正在准备物品。\n请稍等一会儿然后再试一次。";
+"grid" = "道";
+"stones" = "子";
+"points" = "目";
+"japanese" = "日本规则";
+"chinese" = "中国规则";
+"tromp-taylor" = "Tromp-Tayor规则";
+"rule is not supported" = "规则为%@，但采用%@。";
+"rule is not specified" = "由于未指定%@，因此采用该规则。";

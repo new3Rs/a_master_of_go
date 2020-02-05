@@ -12,7 +12,8 @@
     ・アプリアイコンは月岡芳年(1839-1892)の「鍾馗」です。
     ・AIアルゴリズムはDeepMind社のAlphaZeroと同じものです。
     ・Leela Zeroプロジェクトからの派生ニューラルネットワークと、ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)のニューラルネットワークと、PhoenixGo(作者: Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo)のニューラルネットワークを搭載しています。
-    ・検討モードでの情報表示はLizzie(https://github.com/featurecat/lizzie)互換です。";
+    ・検討モードでの情報表示はLizzie(https://github.com/featurecat/lizzie)互換です。
+    ・オープンソースのKataGoエンジン(https://github.com/lightvector/KataGo)を搭載しています。";
 
 "end greeting" = "ありがとうございました";
 "start greeting" = "おねがいします";
@@ -34,7 +35,7 @@
 "are you sure" = "よろしいですか？";
 "let's study" = "検討しましょう。";
 "komi is not supported" = "コミが%.1fですが、%.1fを採用します。";
-"komi is not specified" = "コミが未設定ですが、%.1fを採用します。";
+"komi is not specified" = "コミが未設定なので、%.1fを採用します。";
 "going to resign" = "投了しようとしています";
 "how to save" = "(この棋譜は、メインメニューに移動後、シェアボタンで保存できます)";
 "sorry" = "申し訳ございません";
@@ -43,10 +44,25 @@
 クリップボードに棋譜をコピーしますか？";
 "buy" = "購入する";
 "buying" = "手続き中";
-"bought" = "手続き完了しました。ご購入ありがとうございました！
+"deferred" = "承認待ち";
+"purchased" = "購入済み";
+"coming soon" = "近日公開";
+"new item" = "新アイテム";
+"bought katago" = "手続き完了しました。ご購入ありがとうございました！
+KataGoエンジンをご利用いただくにはウェイト選択でKataGoウェイトを選択してください。";
+"restored katago" = "KataGoエンジンのアンロックを復元しました。";
+"bought coins" = "手続き完了しました。ご購入ありがとうございました！
 お持ちのコインは%dになりました。";
 "failed to buy" = "申し訳ございません。手続きができませんでした。";
 "close" = "閉じる";
 "extend search" = "探索延長";
 "invalid product IDs" = "無効な商品IDを検出しました。";
 "no product IDs" = "App Storeが準備中のようです。\nしばらく待ってから再度お試しください。";
+"grid" = "路";
+"stones" = "子";
+"points" = "目";
+"japanese" = "日本ルール";
+"chinese" = "中国ルール";
+"tromp-taylor" = "Tromp-Tayorルール";
+"rule is not supported" = "ルールが%@ですが、%@を採用します。";
+"rule is not specified" = "ルールが未設定なので、%@を採用します。";

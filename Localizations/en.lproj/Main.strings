@@ -56,6 +56,9 @@
 /* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[2] = "Play as White"; ObjectID = "SLa-gX-i1U"; */
 "SLa-gX-i1U.segmentTitles[2]" = "Play as White";
 
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[3] = "Pair Go with AI"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[3]" = "Pair Go with AI";
+
 /* Class = "UIButton"; normalTitle = "Start Study"; ObjectID = "SZI-Xg-tvC"; */
 "SZI-Xg-tvC.normalTitle" = "Start Study";
 
@@ -106,6 +109,12 @@
 
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
 "5bL-9j-mBK.title" = "Settings";
+
+/* Class = "UILabel"; text = "Unlock KataGo"; ObjectID = "DSG-fo-yrf"; */
+"DSG-fo-yrf.text" = "Unlock the KataGo engine!";
+
+/* Class = "UIButton"; normalTitle = "Go to in-app store"; ObjectID = "csU-Zc-D6Y" */
+"csU-Zc-D6Y.normalTitle" = "Go to in-app store";
 
 /* Class = "UILabel"; text = "UI Settings"; ObjectID = "EVw-a1-KQB"; */
 "EVw-a1-KQB.text" = "UI Settings";
@@ -183,7 +192,7 @@
 "mY0-5f-6Ej.text" = "coins left";
 
 /* Class = "UINavigationItem"; title = "Coin Store"; ObjectID = "DwS-7e-QgM"; */
-"DwS-7e-QgM.title" = "Coin Store";
+"DwS-7e-QgM.title" = "In-App Store";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "uWe-Au-urD"; */
 "uWe-Au-urD.title" = "Close";
@@ -192,7 +201,10 @@
  You can use server-side functionalities by using coins.
  Current server-side functionality is,
  score estimation : 1 coin per one time."; ObjectID = "qfC-Nz-TnO"; */
-"qfC-Nz-TnO.text" = "Here is an in-app virtual coin store.
+"qfC-Nz-TnO.text" = "Here is an in-app store.
+(Note that you cannot share items in the in-app store by Family Sharing.)
+You can unlock KataGo engine or purchase virtual coins.
+KataGo engine is good at ladder then you can change komi for games, see score estimations, and visualize dominating areas by ⚖(scale) button. It also supports Japanese rule.
 You can use server-side functionalities by using coins.
 Current server-side functionality is,";
 

@@ -38,6 +38,9 @@
 /* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[2] = "Play as White"; ObjectID = "SLa-gX-i1U"; */
 "SLa-gX-i1U.segmentTitles[2]" = "白を持つ";
 
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[3] = "Pair Go with AI"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[3]" = "AIとペア碁";
+
 /* Class = "UIButton"; normalTitle = "Start Study"; ObjectID = "SZI-Xg-tvC"; */
 "SZI-Xg-tvC.normalTitle" = "検討開始";
 
@@ -64,6 +67,12 @@
 
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
 "5bL-9j-mBK.title" = "設定";
+
+/* Class = "UILabel"; text = "Unlock KataGo"; ObjectID = "DSG-fo-yrf"; */
+"DSG-fo-yrf.text" = "KataGoエンジンをアンロックしよう！";
+
+/* Class = "UIButton"; normalTitle = "Go to in-app store"; ObjectID = "csU-Zc-D6Y" */
+"csU-Zc-D6Y.normalTitle" = "アプリ内ストアに行く";
 
 /* Class = "UILabel"; text = "UI Settings"; ObjectID = "EVw-a1-KQB"; */
 "EVw-a1-KQB.text" = "UI設定";
@@ -141,7 +150,7 @@
 "mY0-5f-6Ej.text" = "コインの残り";
 
 /* Class = "UINavigationItem"; title = "Coin Store"; ObjectID = "DwS-7e-QgM"; */
-"DwS-7e-QgM.title" = "コインストア";
+"DwS-7e-QgM.title" = "アプリ内ストア";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "uWe-Au-urD"; */
 "uWe-Au-urD.title" = "閉じる";
@@ -150,15 +159,18 @@
  You can use server-side functionalities by using coins.
  Current server-side functionality is,
  score estimation : 1 coin per one time."; ObjectID = "qfC-Nz-TnO"; */
-"qfC-Nz-TnO.text" = "ここはアプリ内仮想コインストアです。
-コインを使ってサーバーサイドの機能を使うことができます。
+"qfC-Nz-TnO.text" = "ここはアプリ内ストアです。
+(アプリ内ストアのアイテムはファミリー共有の対象外です。ご注意ください)
+KataGoエンジンをアンロックしたり、仮想コインを購入できます。
+KataGoエンジンはシチョウに強く、また、コミを変えられたり目算を見られたり陣地を可視化したりできます。日本ルールもサポートします。
+コインを使うとサーバーサイドの機能を使うことができます。
 現在のサーバーサイド機能は以下のものがあります。";
 
 /* Class = "UILabel"; text = "score estimation"; ObjectID = "pjQ-ma-0dB"; */
 "pjQ-ma-0dB.text" = "地合い/整地計算";
 
 /* Class = "UILabel"; text = "1 coin at one time"; ObjectID = "plo-aI-ZhI"; */
-"plo-aI-ZhI.text" = "1回1コイン";
+"plo-aI-ZhI.text" = "1回 1コイン";
 
 /* Class = "UILabel"; text = "Coins left"; ObjectID = "4i1-GN-7oc"; */
 "4i1-GN-7oc.text" = "残りのコイン";

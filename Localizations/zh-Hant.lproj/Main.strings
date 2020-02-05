@@ -35,6 +35,9 @@
 /* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[2] = "Play as White"; ObjectID = "SLa-gX-i1U"; */
 "SLa-gX-i1U.segmentTitles[2]" = "白棋";
 
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[3] = "Pair Go with AI"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[3]" = "與AI雙人圍棋";
+
 /* Class = "UIButton"; normalTitle = "Start Study"; ObjectID = "SZI-Xg-tvC"; */
 "SZI-Xg-tvC.normalTitle" = "開始研究";
 
@@ -61,6 +64,12 @@
 
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
 "5bL-9j-mBK.title" = "設置";
+
+/* Class = "UILabel"; text = "Unlock KataGo"; ObjectID = "DSG-fo-yrf"; */
+"DSG-fo-yrf.text" = "解鎖KataGo引擎！";
+
+/* Class = "UIButton"; normalTitle = "Go to in-app store"; ObjectID = "csU-Zc-D6Y" */
+"csU-Zc-D6Y.normalTitle" = "前往應用程式內商店";
 
 /* Class = "UILabel"; text = "UI Settings"; ObjectID = "EVw-a1-KQB"; */
 "EVw-a1-KQB.text" = "UI設置";
@@ -138,7 +147,7 @@
 "mY0-5f-6Ej.text" = "其餘的硬幣";
 
 /* Class = "UINavigationItem"; title = "Coin Store"; ObjectID = "DwS-7e-QgM"; */
-"DwS-7e-QgM.title" = "硬幣店";
+"DwS-7e-QgM.title" = "應用內商店";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "uWe-Au-urD"; */
 "uWe-Au-urD.title" = "關閉";
@@ -147,7 +156,10 @@
  You can use server-side functionalities by using coins.
  Current server-side functionality is,
  score estimation : 1 coin per one time."; ObjectID = "qfC-Nz-TnO"; */
-"qfC-Nz-TnO.text" = "這是一個應用內虛擬硬幣商店。
+"qfC-Nz-TnO.text" = "這是一個應用內商店。
+（請注意，您不能通過家庭共享在應用程序內商店中共享項目。）
+您可以解鎖KataGo引擎或購買虛擬硬幣。
+KataGo引擎擅長征子，因此您可以更改對弈的貼目，查看地合替代並可視化區域。它還支持日本規則。
 您可以使用硬幣來使用服務器端功能。
 當前的服務器端功能是，";
 

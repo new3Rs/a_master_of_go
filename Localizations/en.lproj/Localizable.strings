@@ -11,8 +11,9 @@ You can play or study with \"A Master of Go\". Enjoy!";
 "references" = "Reference
     ・The app icon is \"Zhong Kui\” by Tsukioka Yoshitoshi(1839-1892).
     ・The AI algorithm is same as AlphaZero by DeepMind Technologies Limited.
-    ・Powered by a neural network derived from Leela Zero, neural networks of ELF OpenGo (Authors: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF) and PhoenixGo (Authors: Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo).
-    ・Information presentation in study mode is compatible with Lizzie(https://github.com/featurecat/lizzie).";
+    ・Powered by neural networks derived from Leela Zero, neural networks of ELF OpenGo (Authors: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF) and PhoenixGo (Authors: Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo).
+    ・Information presentation in study mode is compatible with Lizzie(https://github.com/featurecat/lizzie).
+    ・Powered by KataGo (https://github.com/lightvector/KataGo), which is an open source Go AI engine.";
 
 "end greeting" = "Thank you for playing with me!";
 "start greeting" = "Let's play!";
@@ -42,11 +43,26 @@ You can play or study with \"A Master of Go\". Enjoy!";
 You can retrieve the game SGF with the share button.
 You may copy it into clipboard.";
 "buy" = "Buy";
-"buying" = "processing";
-"bought" = "The process finished. Thank you for purchasing!
+"buying" = "Processing";
+"deferred" = "Pending";
+"purchased" = "Purchased";
+"coming soon" = "Coming soon";
+"new item" = "New Item";
+"bought katago" = "The process finished. Thank you for purchasing!
+To use KataGo Engine, select KataGo weights in the weight field";
+"restored katago" = "restored to unlock KataGo Engine";
+"bought coins" = "The process finished. Thank you for purchasing!
 Now you have %d coins.";
 "failed to buy" = "I am sorry that the process could not finish.";
 "close" = "Close";
 "extend search" = "Extend search";
 "invalid product IDs" = "Invalid product IDs are detected.";
 "no product IDs" = "It seems that App Store is preparing items.\nPlease wait for a while, then try again.";
+"grid" = " grid";
+"stones" = " stones";
+"points" = " points";
+"japanese" = "Japanese Rule";
+"chinese" = "Chinese Rule";
+"tromp-taylor" = "Tromp-Tayor Rule";
+"rule is not supported" = "The rule is %@, but %@ is used.";
+"rule is not specified" = "%@ is used since it is not specifed.";

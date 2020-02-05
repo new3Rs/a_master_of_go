@@ -13,7 +13,8 @@
     ・採用了與DeepMind的AlphaZero相同的AI算法。
     ・由Leela Zero衍生的神經網絡以及ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)和PhoenixGo(Authors: Qinsong Zeng, et al. 2018, https:/ /github.com/Tencent/PhoenixGo)的神經網絡提供支持。
     ・使用ELF OpenGo(作者: Yuandong Tian, et al. 2018, https://github.com/pytorch/ELF)的神經網絡權重。
-    ・研究模式中的信息呈現與Lizzie(https://github.com/featurecat/lizzie)兼容。";
+    ・研究模式中的信息呈現與Lizzie(https://github.com/featurecat/lizzie)兼容。
+    ・由KataGo（https://github.com/lightvector/KataGo）驅動，這是一個開源的Go AI引擎。";
 
 "end greeting" = "謝謝你跟我下棋";
 "start greeting" = "請多指教";
@@ -44,10 +45,27 @@
 你把它複製到剪貼板嗎？";
 "buy" = "要買";
 "buying" = "正在處理中";
-"bought" = "這個過程結束了。謝謝你的購買！
+"deferred" = "等待批准";
+"purchased" = "已購買";
+"coming soon" = "快來了";
+"new item" = "新物品";
+"bought katago" = "這個過程結束了。謝謝你的購買！
+要使用KataGo引擎，請在權量字段中選擇KataGo權量。";
+"restored katago" = "恢復以解鎖KataGo引擎。";
+"bought coins" = "這個過程結束了。謝謝你的購買！
 現在你有%d硬幣。";
 "failed to buy" = "對不起，這個過程無法完成。";
 "close" = "關";
 "extend search" = "擴展搜索";
 "invalid product IDs" = "檢測到無效的產品ID。";
 "no product IDs" = "似乎App Store正在準備物品。\n請稍等一會兒然後再試一次。";
+"grid" = "道";
+"stones" = "子";
+"points" = "目";
+"japanese" = "日本規則";
+"chinese" = "中國規則";
+"tromp-taylor" = "Tromp-Tayor規則";
+"rule is not supported" = "規則為%@，但採用%@。";
+"rule is not specified" = "由於未指定%@，因此採用該規則。";
+
+
