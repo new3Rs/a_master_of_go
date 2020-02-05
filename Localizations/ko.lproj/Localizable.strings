@@ -1,3 +1,6 @@
+/*
+Edited by Sung-Hyun Park 
+*/
 /* 
   Localizable.strings
   ChildOfZero
@@ -7,12 +10,13 @@
 */
 
 "introduction" = "    \"바둑의 선생\"은 강한 뉴럴네트워크를 탑재한 바둑AI입니다.
-    \"바둑의 스승\"이라고 대국하거나 검토하거나, 즐겨 주십시오! ";
+    \"바둑의 스승\"과 대국하고 검토하면서 즐겨주세요!";
 "references" = "참고
     ・앱 아이콘은 月岡芳年(1839-1892)의 \"鍾馗\"입니다.
-    ・AI 알고리즘은 DeepMind 사의 AlphaZero과 같습니다.
+    ・AI 알고리즘은 DeepMind사의 AlphaZero와 같습니다.
     ・Leela Zero 프로젝트에서 파생 신경망과 ELF OpenGo (저자 : Yuandong Tian, ​​et al. 2018, https://github.com/pytorch/ELF)의 신경망과 PhoenixGo (저자 : Qinsong Zeng, et al. 2018, https://github.com/Tencent/PhoenixGo)의 신경망을 탑재하고 있습니다.
-    ・학습 모드의 정보 프리젠 테이션은 Lizzie(https://github.com/featurecat/lizzie)와 호환됩니다.";
+    ・학습 모드의 정보 프리젠테이션은 Lizzie(https://github.com/featurecat/lizzie)와 호환됩니다.
+    ・오픈 소스 KataGo 엔진 (https://github.com/lightvector/KataGo)를 탑재하고 있습니다. ";
 
 "end greeting" = "잘 두었습니다.";
 "start greeting" = "잘 부탁합니다.";
@@ -22,31 +26,46 @@
 "alert" = "메시지";
 "unsupported board size" = "크기(%@)는 지원되지 않습니다.";
 "invalid SGF" = "SGF가 유효하지 않은 것 같습니다.\n%@";
-"illegal move in SGF" = "불법적 인 수(%d)이있는 것처럼 보입니다.";
-"trouble" = "죄송합니다, AI 문제가있는 것 같습니다.";
-"crash" = "AI 엔진이 비정상적으로 종료되었습니다. 기본 메뉴로 돌아가 한 번 시도하십시오. 반복되는 경우 지원 페이지에서 문의하십시오. 나는 대단히 유감 스럽다.";
-"illegal move" = "그 장소는 착수금지점 인 것 같습니다.";
+"illegal move in SGF" = "SGF에 착수금지 수(%d)가 포함되어 있는 것 같습니다.";
+"trouble" = "죄송합니다, AI에 문제가 있는 것 같습니다.";
+"crash" = "AI 엔진이 비정상적으로 종료되었습니다. 메인 메뉴로 돌아가 한번 시도해 주십시오. 반복되는 경우 지원 페이지에 문의 바랍니다. 죄송합니다.";
+"illegal move" = "그 장소는 착수금지점인 것 같습니다.";
 "not text" = "텍스트 파일이 아닌 것 같습니다.\n문자 코드로 UTF-8이 필요합니다.";
 "confirm file" = "파일 열기";
-"confirm message" = "현재 대국이나 공부를 포기 하시겠습니까?";
+"confirm message" = "현재 대국이나 검토를 포기하시겠습니까?";
 "cancel" = "취소";
 "go to main menu" = "메인 메뉴로 이동";
-"are you sure" = "확실해?";
-"let's study" = "검토시다.";
-"komi is not supported" = "덤은 %.1f이지만 %.1f가 채택됩니다.";
-"komi is not specified" = "덤은 지정되지 않았지만 %.1f가 채택됩니다.";
-"going to resign" = "던지려고 하다";
+"are you sure" = "확실하십니까?";
+"let's study" = "검토합시다.";
+"komi is not supported" = "덤이 %.1f이지만 %.1f를 채택합니다.";
+"komi is not specified" = "덤이 지정되지 않았지만 %.1f를 채택합니다.";
+"going to resign" = "던지려고 합니다";
 "how to save" = "(기본 메뉴의 공유 버튼을 통해이 기보를 저장할 수 있습니다)";
 "sorry" = "죄송합니다";
-"crash during game" = "마지막 게임 중에 응용 프로그램이 충돌 한 것 같습니다.
-공유 버튼에서 게임 SGF를 얻을 수 있습니다.
-그것을 클립 보드에 복사합니까?";
-"buy" = "구매";
-"buying" = "수속 중";
-"bought" = "절차 완료했습니다. 구입 감사합니다!
-이제 %d 개의 동전을 가지고 있습니다.";
-"failed to buy" = "죄송합니다. 수속을 할 수 없습니다.";
+"crash during game" = "이전 대국 중에 어플리케이션이 다운된 것 같습니다.
+기보는 공유버튼을 눌러 얻을 수 있습니다.
+클립보드에 기보를 복사하시겠습니까?";
+"buy" = "구입";
+"buying" = "절차 중";
+"deferred" = "승인 대기";
+"purchased" = "구매 쓰자";
+"coming soon" = "곧 온다";
+"new item" = "새로운 아이템";
+"bought katago" = "절차가 완료 되었습니다. 구입 감사합니다!
+KataGo를 이용에는 웨이트 선택 KataGo 웨이트를 선택하십시오.";
+"restored katago" = "KataGo 엔진의 잠금을 복원했습니다.";
+"bought coins" = "절차가 완료 되었습니다. 구입 감사합니다!
+소지하고 있는 동전이 %d개가 되었습니다.";
+"failed to buy" = "죄송합니다. 진행할 수 없습니다.";
 "close" = "닫기";
 "extend search" = "검색 연장";
 "invalid product IDs" = "잘못된 제품 ID를 감지했습니다.";
-"no product IDs" = "App Store가 준비중인 것 같습니다.\n잠시 후 다시 시도해주십시오.";
+"no product IDs" = "App Store가 준비중인 것 같습니다.\n잠시 후 다시 시도해 주십시오.";
+"grid" = " 줄";
+"stones" = " 점";
+"points" = " 호";
+"japanese" = "한국 규칙";
+"chinese" = "중국 규칙";
+"tromp-taylor" = "Tromp-Tayor 규칙";
+"rule is not supported" = "규칙을 %@ 이며, %@를 채용합니다.";
+"rule is not specified" = "규칙이 미 설정이므로 %@를 채용합니다.";

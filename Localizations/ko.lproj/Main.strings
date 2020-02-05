@@ -1,12 +1,12 @@
 
 /* Class = "UIButton"; normalTitle = "Paste SGF for Study"; ObjectID = "2OC-cc-Md1"; */
-"2OC-cc-Md1.normalTitle" = "검토위한 SGF 붙여 넣기";
+"2OC-cc-Md1.normalTitle" = "검토용에 SGF 붙여넣기";
 
 /* Class = "UILabel"; text = "Komi:"; ObjectID = "4dJ-Dl-CbS"; */
 "4dJ-Dl-CbS.text" = "덤:";
 
 /* Class = "UILabel"; text = "Battery saving:\n(idle while the user is thinking)"; ObjectID = "6lY-KH-mPQ"; */
-"6lY-KH-mPQ.text" = "배터리 절약:\n(사용자가 생각하는 동안 유휴 상태 임)";
+"6lY-KH-mPQ.text" = "배터리 절약:\n(사용자가 생각하는 동안에는 탐색하지 않음)";
 
 /* Class = "UILabel"; text = "nps"; ObjectID = "8Ut-Ga-MkL"; */
 "8Ut-Ga-MkL.text" = "nps";
@@ -27,22 +27,25 @@
 "QAY-QV-3xU.title" = "던지다";
 
 /* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[0] = "View AI Self-Play"; ObjectID = "SLa-gX-i1U"; */
-"SLa-gX-i1U.segmentTitles[0]" = "AI의 자기 대전을 관전하기";
+"SLa-gX-i1U.segmentTitles[0]" = "AI의 자기 대국을 관전하기";
 
 /* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[1] = "Play as Black"; ObjectID = "SLa-gX-i1U"; */
-"SLa-gX-i1U.segmentTitles[1]" = "흑을 두다";
+"SLa-gX-i1U.segmentTitles[1]" = "흑으로 두기";
 
 /* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[2] = "Play as White"; ObjectID = "SLa-gX-i1U"; */
-"SLa-gX-i1U.segmentTitles[2]" = "백을 두다";
+"SLa-gX-i1U.segmentTitles[2]" = "백으로 두기";
+
+/* Class = "UISegmentedControl"; SLa-gX-i1U.segmentTitles[3] = "Pair Go with AI"; ObjectID = "SLa-gX-i1U"; */
+"SLa-gX-i1U.segmentTitles[3]" = "AI와 페어바둑";
 
 /* Class = "UIButton"; normalTitle = "Start Study"; ObjectID = "SZI-Xg-tvC"; */
-"SZI-Xg-tvC.normalTitle" = "학습 시작";
+"SZI-Xg-tvC.normalTitle" = "검토 시작";
 
 /* Class = "UILabel"; text = "sec."; ObjectID = "UPr-0u-YmB"; */
 "UPr-0u-YmB.text" = "초";
 
 /* Class = "UIButton"; normalTitle = "Paste SGF for Game"; ObjectID = "bpS-Ea-sOp"; */
-"bpS-Ea-sOp.normalTitle" = "대국을위한 SGF 붙여 넣기";
+"bpS-Ea-sOp.normalTitle" = "대국을 위한 SGF 붙여넣기";
 
 /* Class = "UIButton"; normalTitle = "PV"; ObjectID = "hQ2-PS-ktR"; */
 //"hQ2-PS-ktR.normalTitle" = "PV";
@@ -61,6 +64,12 @@
 
 /* Class = "UINavigationItem"; title = "Settings"; ObjectID = "5bL-9j-mBK"; */
 "5bL-9j-mBK.title" = "설정";
+
+/* Class = "UILabel"; text = "Unlock KataGo"; ObjectID = "DSG-fo-yrf"; */
+"DSG-fo-yrf.text" = "KataGo 엔진의 잠금을 해제하려고!";
+
+/* Class = "UIButton"; normalTitle = "Go to in-app store"; ObjectID = "csU-Zc-D6Y" */
+"csU-Zc-D6Y.normalTitle" = "인앱 스토어로 이동";
 
 /* Class = "UILabel"; text = "UI Settings"; ObjectID = "EVw-a1-KQB"; */
 "EVw-a1-KQB.text" = "UI 설정";
@@ -90,13 +99,13 @@
 "xD4-Me-qnE.text" = "대국 모드 설정";
 
 /* Class = "UILabel"; text = "Display Winrate:"; ObjectID = "2fe-sT-vOF"; */
-"2fe-sT-vOF.text" = "승률보기:";
+"2fe-sT-vOF.text" = "승률 표시:";
 
 /* Class = "UILabel"; text = "Stochastic Opening:"; ObjectID = "bhU-uG-Mkc"; */
-"bhU-uG-Mkc.text" = "확률 적 초반:";
+"bhU-uG-Mkc.text" = "확률적 초반:";
 
 /* Class = "UILabel"; text = "Extends time for ladder:"; ObjectID = "JT5-fY-swP"; */
-"JT5-fY-swP.text" = "축 를위한 시간을 연장하는 최대 횟수:";
+"JT5-fY-swP.text" = "축을 위해 시간을 연장하는 최대 횟수:";
 
 /* Class = "UILabel"; text = "Study Mode Settings"; ObjectID = "7NV-fm-PId"; */
 "7NV-fm-PId.text" = "검토 모드 설정";
@@ -105,10 +114,10 @@
 "pf8-0d-vY7.text" = "단일 바둑판의 변화도 표시:";
 
 /* Class = "UILabel"; text = "Bad move threshold(%):"; ObjectID = "vof-pM-uwf"; */
-"vof-pM-uwf.text" = "악수　임계 값(%):";
+"vof-pM-uwf.text" = "악수 임계 값(%):";
 
 /* Class = "UILabel"; text = "Max time per position(sec.):"; ObjectID = "035-UG-FyM"; */
-"035-UG-FyM.text" = "궁면 당 최대 시간(초):";
+"035-UG-FyM.text" = "한 국면의 최대 검토 시간(초):";
 
 /* Class = "UILabel"; text = "AI Engine Parameters"; ObjectID = "c25-vc-Hf5"; */
 "c25-vc-Hf5.text" = "AI 엔진 매개 변수";
@@ -117,28 +126,28 @@
 "zHU-Tf-ljD.normalTitle" = "기본값으로 복원";
 
 /* Class = "UILabel"; text = "Handicap stones"; ObjectID = "Vf7-Ho-2k2"; */
-"Vf7-Ho-2k2.text" = "접 바둑:";
+"Vf7-Ho-2k2.text" = "접바둑:";
 
 /* Class = "UILabel"; text = "Keep touching!"; ObjectID = "SHr-fR-g3f"; */
-"SHr-fR-g3f.text" = "터치를 계속!";
+"SHr-fR-g3f.text" = "계속 누르고 계세요!";
 
 /* Class = "UILabel"; text = "coins left"; ObjectID = "jsw-7h-6pV"; */
-"jsw-7h-6pV.text" = "동전 나머지";
+"jsw-7h-6pV.text" = "남은 코인";
 
 /* Class = "UILabel"; text = "current"; ObjectID = "71o-ks-ZCP"; */
 "71o-ks-ZCP.text" = "현재";
 
 /* Class = "UILabel"; text = "av. with previous"; ObjectID = "Xgc-pk-GXq"; */
-"Xgc-pk-GXq.text" = "이전과 평균";
+"Xgc-pk-GXq.text" = "이전과의 평균";
 
 /* Class = "UILabel"; text = "accurate"; ObjectID = "Qdy-Wk-Ah3"; */
-"Qdy-Wk-Ah3.text" = "정확한";
+"Qdy-Wk-Ah3.text" = "계가";
 
 /* Class = "UILabel"; text = "coins left"; ObjectID = "mY0-5f-6Ej"; */
-"mY0-5f-6Ej.text" = "동전 나머지";
+"mY0-5f-6Ej.text" = "남은 코인";
 
 /* Class = "UINavigationItem"; title = "Coin Store"; ObjectID = "DwS-7e-QgM"; */
-"DwS-7e-QgM.title" = "동전 가게";
+"DwS-7e-QgM.title" = "인앱 스토어";
 
 /* Class = "UIBarButtonItem"; title = "Close"; ObjectID = "uWe-Au-urD"; */
 "uWe-Au-urD.title" = "닫기";
@@ -147,15 +156,19 @@
  You can use server-side functionalities by using coins.
  Current server-side functionality is,
  territory estimation : 1 coin per one time."; ObjectID = "qfC-Nz-TnO"; */
-"qfC-Nz-TnO.text" = "여기에는 앱에서 가상 동전 매장입니다.
-동전을 사용하면 서버 측 기능을 사용할 수 있습니다.
-현재 서버 측 기능은 다음과 같습니다.";
+"qfC-Nz-TnO.text" = "이곳은 인앱 스토어입니다.
+(인앱 스토어의 상품은 패밀리 공유되지 않습니다.주의하십시오.)
+KataGo 엔진의 잠금을 해제하고 가상 동전을 구입할 수 있습니다.
+KataGo 엔진은 축에 강하고, 또한 덤를 개조하거나 가의 차이를 보이고, 가를 시각화 할 수 있습니다. 한국 규칙도 지원합니다.
+코인을 사용하면 서버측 기능을 사용할 수 있습니다.
+현재 서버측 기능은 다음과 같습니다.";
 
 /* Class = "UILabel"; text = "score estimation"; ObjectID = "pjQ-ma-0dB"; */
-"pjQ-ma-0dB.text" = "집/정확한 계산";
+"pjQ-ma-0dB.text" = "형세판단/계가";
 
 /* Class = "UILabel"; text = "1 coin at one time"; ObjectID = "plo-aI-ZhI"; */
-"plo-aI-ZhI.text" = "1 회 1 동전";
+"plo-aI-ZhI.text" = "1회 1코인 사용";
 
 /* Class = "UILabel"; text = "Coins left"; ObjectID = "4i1-GN-7oc"; */
-"4i1-GN-7oc.text" = "동전 나머지";
+"4i1-GN-7oc.text" = "나머지 코인";
+
