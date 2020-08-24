@@ -17,7 +17,8 @@ if __name__ == '__main__':
     model.user_defined_metadata["version"] = "1"
     model.user_defined_metadata["size"] = str(size)
     model.user_defined_metadata["komi"] = "7.5"
-    model.user_defined_metadata["c_init"] = "0.8"
+    model.user_defined_metadata["C_base"] = "inf"
+    model.user_defined_metadata["C_init"] = "0.8"
     model.user_defined_metadata["softmax_temperature"] = "1.0"
     model.user_defined_metadata["virtual_loss"] = "3"
     model.save(sys.argv[3])

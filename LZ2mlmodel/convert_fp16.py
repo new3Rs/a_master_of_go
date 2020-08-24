@@ -8,5 +8,7 @@ if __name__ == '__main__':
 
     # Load a model, lower its precision, and then save the smaller model.
     model_spec = coremltools.utils.load_spec(sys.argv[1])
+    if model_spec.specificationVersion == 1:
+        model_spec.specificationVersion = 2
     model_fp16_spec = coremltools.utils.convert_neural_network_spec_weights_to_fp16(model_spec)
     coremltools.utils.save_spec(model_fp16_spec, sys.argv[2])
