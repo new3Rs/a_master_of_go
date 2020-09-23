@@ -17,22 +17,22 @@ ${DOWNLOADED}:
 ${EXPANDED}: ${DOWNLOADED}
 	gunzip -k -f ${DOWNLOADED}
 
-${GRAPH}: ${EXPANDED}
+${GRAPH}: ${EXPANDED} save_graph.py
 	python save_graph.py ${SIZE} $< $@
 
-${CHECK_POINT}: ${EXPANDED} ${GRAPH}
+${CHECK_POINT}: ${EXPANDED} ${GRAPH} save_graph.py
 	python save_graph.py ${SIZE} $< ${GRAPH}
 
 ${FROZEN_MODEL}: ${GRAPH} ${CHECK_POINT}.index
 	freeze_graph --input_graph=$< --input_checkpoint=${CHECK_POINT} --output_graph=$@ --output_node_names=fc1,fc3
 
-${OPTIMIZED_MODEL}: ${FROZEN_MODEL}
+${OPTIMIZED_MODEL}: ${FROZEN_MODEL} optimize.py
 	python optimize.py $< $@
 
-${TARGET}: ${OPTIMIZED_MODEL}
+${TARGET}: ${OPTIMIZED_MODEL} convert_coreml.py
 	python convert_coreml.py $< ${SIZE} $@
 
-${TARGET_FP16}: ${TARGET}
+${TARGET_FP16}: ${TARGET} convert_fp16.py
 	python convert_fp16.py $< $@
 
 clean:
